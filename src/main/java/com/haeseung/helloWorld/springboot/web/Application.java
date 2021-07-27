@@ -1,4 +1,4 @@
-package com.haeseung.helloWorld.springboot;
+package com.haeseung.helloWorld.springboot.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
