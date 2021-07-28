@@ -1,6 +1,6 @@
-package com.haeseung.helloWorld.springboot.web.dto;
+package com.haeseung.helloWorld.springboot.dto;
 
-import com.haeseung.helloWorld.springboot.web.web.dto.HelloResponseDto;
+import com.haeseung.helloWorld.springboot.web.dto.HelloResponseDto;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
