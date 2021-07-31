@@ -37,7 +37,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
     bucket: haeseung-springbootstudy-build # S3 버킷
-    key: haeseung-springbootStudy-webservice  # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
+    key: haeseung-springbootSutdy-webservice  # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: haeseung-springbootStudy-webservice-group #웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
