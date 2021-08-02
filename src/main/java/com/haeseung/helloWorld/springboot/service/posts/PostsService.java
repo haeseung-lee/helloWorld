@@ -35,6 +35,7 @@ public class PostsService {
         return id;
     }
 
+    @Transactional(readOnly = true)
     public PostsResponseDto findById(Long id){
 
         Posts entity = postsRepository.findById(id)
