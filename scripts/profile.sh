@@ -18,8 +18,10 @@ function find_idle_profile()
 
   if [ ${CURRENT_PROFILE} == real1 ]
   then
+    echo "> ${CURRENT_PROFILE}"
     IDLE_PROFILE=real2
   else
+    echo "> ${CURRENT_PROFILE}"
     IDLE_PROFILE=real1
   fi
 
