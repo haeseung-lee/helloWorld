@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY=/home/ec2-user/app/step2
-PROJECT_NAME=helloWorld
+PROJECT_NAME=haeseung-springbootSutdy-webservice
 
 echo "> Build 파일 복사"
 
@@ -9,7 +9,8 @@ cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 echo "> 현재 구동중인 애플리케이션 pid 확인"
 
-CURRENT_PID=$(pgrep -fl haeseung-springbootStudy-webservice | grep jar | awk '{print $1}')
+#CURRENT_PID=$(pgrep -fl ${PROJECT_NAME} | grep jar | awk '{print $1}')
+CURRENT_PID=$(ps -ef | grep ${PROJECT_NAME} | grep jar | awk '{print $2}')
 
 echo "현재 구동중인 어플리케이션 pid: $CURRENT_PID"
 
