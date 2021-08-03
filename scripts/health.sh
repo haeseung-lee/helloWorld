@@ -24,6 +24,7 @@ do
     break
   else
     echo "> Health check의 응답을 알 수 없거나 혹은 실행상태가 아닙니다."
+    echo "> 얼마게 : ${UP_COUNT}"
     echo "> Health check: ${RESPONSE}"
   fi
 
