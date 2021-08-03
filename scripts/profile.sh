@@ -13,7 +13,7 @@ function find_idle_profile()
   then
     CURRENT_PROFILE=real2 # 엔진엑스와 연결되지 않은 profile
   else
-    CURRENT_PROFILE=$(curl -s http://localhost/profile)
+    CURRENT_PROFILE=real1
   fi
 
   if [ ${CURRENT_PROFILE} == real1 ]
