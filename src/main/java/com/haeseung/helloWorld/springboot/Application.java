@@ -9,6 +9,7 @@ public class Application {
 
     public static void main(String[] args) {
         //내장 WAS 실행 -> 톰캣을 설치할 필요가 없음
+        //git push 테스트
         SpringApplication.run(Application.class, args);
     }
 }
